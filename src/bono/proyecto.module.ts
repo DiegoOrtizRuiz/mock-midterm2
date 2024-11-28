@@ -1,8 +1,8 @@
 import { Module } from '@nestjs/common';
-import { ProyectoService } from './proyecto.service';
-import { ProyectoEntity } from './proyecto.entity/proyecto.entity';
+import { ProyectoService } from './bono.service';
+import { ProyectoEntity } from './bono.entity/bono.entity';
 import { TypeOrmModule } from '@nestjs/typeorm';
-import { ProyectoController } from './proyecto.controller';
+import { ProyectoController } from './bono.controller';
 
 @Module({
   providers: [ProyectoService],

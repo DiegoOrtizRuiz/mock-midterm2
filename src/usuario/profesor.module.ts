@@ -1,6 +1,6 @@
 import { Module } from '@nestjs/common';
-import { ProfesorService } from './profesor.service';
-import { ProfesorEntity } from './profesor.entity/profesor.entity';
+import { ProfesorService } from './usuario.service';
+import { ProfesorEntity } from './usuario.entity/usuario.entity';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { ProfesorController } from './profesor.controller';
 

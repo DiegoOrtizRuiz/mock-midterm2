@@ -1,5 +1,5 @@
 import {IsNotEmpty, IsString, IsNumber} from 'class-validator';
-export class ProfesorDto {
+export class UsuarioDto {
 
  @IsNumber()
  @IsNotEmpty()
@@ -16,5 +16,11 @@ export class ProfesorDto {
  @IsNumber()
  @IsNotEmpty()
  readonly numeroDeExtension: number;
+
+@IsString()
+@IsNotEmpty()
+readonly rol: string;
+
+
  
 }

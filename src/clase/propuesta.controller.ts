@@ -1,7 +1,7 @@
 import { Controller, Param, UseInterceptors, Get, Post, Body, Delete, HttpCode } from '@nestjs/common';
-import { PropuestaService } from './propuesta.service';
+import { PropuestaService } from './clase.service';
 import { BusinessErrorsInterceptor } from '../shared/interceptors/business-errors/business-errors.interceptor';
-import { PropuestaEntity } from './propuesta.entity/propuesta.entity';
+import { PropuestaEntity } from './clase.entity/clase.entity';
 import { PropuestaDto } from './propuesta.dto/propuesta.dto';
 import { plainToInstance } from 'class-transformer';
 

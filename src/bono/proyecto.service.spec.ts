@@ -2,8 +2,8 @@ import { Test, TestingModule } from '@nestjs/testing';
 import { getRepositoryToken } from '@nestjs/typeorm';
 import { Repository } from 'typeorm';
 import { TypeOrmTestingConfig } from '../shared/testing-utils/typeorm-testing-config';
-import { ProyectoEntity } from './proyecto.entity/proyecto.entity';
-import { ProyectoService } from './proyecto.service';
+import { ProyectoEntity } from './bono.entity/bono.entity';
+import { ProyectoService } from './bono.service';
 
 import { faker } from '@faker-js/faker';
 
